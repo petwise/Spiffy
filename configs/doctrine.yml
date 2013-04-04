@@ -1,0 +1,7 @@
+parameters:
+  doctrine.factory.class: Spiffy\Doctrine\Service\Doctrine
+  
+services:
+  doctrine:
+    factory_class: %doctrine.factory.class%
+    factory_method: get
